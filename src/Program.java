@@ -11,12 +11,17 @@ public class Program {
 
         Student student2 = new Student("Anna", "Python", 35);
 
+        Student student3 = new Student("Alinne", "UX-UI", 39);
+
 
         System.out.println();
         System.out.println("**********************************");
         System.out.println(student1);
         System.out.println("**********************************");
         System.out.println(student2);
+        System.out.println("**********************************");
+        System.out.println(student3);
+
 
 
 
