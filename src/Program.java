@@ -1,8 +1,6 @@
 import entities.Student;
 
-import java.util.List;
 import java.util.Locale;
-import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
@@ -11,9 +9,14 @@ public class Program {
 
         Student student1 = new Student("Warley", "Java", 39);
 
+        Student student2 = new Student("Anna", "Python", 35);
+
+
         System.out.println();
         System.out.println("**********************************");
         System.out.println(student1);
+        System.out.println("**********************************");
+        System.out.println(student2);
 
 
 
